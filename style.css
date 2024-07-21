@@ -1,10 +1,13 @@
 img {
-  width: 200px;
+  width: 50px;
 }
 body {
-  text-align: center; 
   font-family: 'Verdana';
   background: #33658A;
   color: #FFC145; 
   
+}
+h1{
+  text-align: center; 
+
 }
