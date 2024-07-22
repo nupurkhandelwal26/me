@@ -1,20 +1,16 @@
 img {
-  width: 65px;
+  width: 50px;
 }
 body {
   font-family: 'Verdana', serif;
-  background: #3F334D;
-  color: #EAF0CE; 
-  margin: 100px;
-  
-  
-}
-p {
-  font-size:larger;
+  background: #EAF0CE; 
+  color: #3F334D;
+  text-align: center;
+
 }
 h1{
   text-align: center; 
   font-family: 'Georgia', serif;
-  color:#82A8C4;
+  color:#474973;
   font-size: 5em;
 }
