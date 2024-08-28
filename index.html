@@ -11,6 +11,7 @@
       .header-container a {
         color: red;
         text-decoration: none; 
+         
       }
     </style>
   </head>  
@@ -41,14 +42,37 @@
 
     </div>
 
+  <script>
+     var myName = new String("");
+  </script>
+
+    
+
     
     <h1>hey, i'm nupur.</h1>
     <p>what's up?</p>
     <p>welcome to my website</p>
+    
     <a href = "about.html" style="color: red;text-decoration: firebrick;"> about me </a> 
-
-      
+   
      
+      <form id= "nameForm"> 
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required oninput="myName = this.value">
+        <button type="submit" id="submitButton" onclick="printName(myName)">Submit</button>
+      </form>
+    
+      <script>
+
+
+
+        function printName(name){
+          window.alert("hi, " +name);
+        }
+
+      </script>
+
+
       
   </body>
   
